@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.geofriend.ecommercesampleapp.home.view.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:id="@+id/collectionScreen"
+        android:name="com.geofriend.ecommercesampleapp.collection.view.CollectionScreen"
+        android:label="fragment_collection_screen"
+        tools:layout="@layout/fragment_collection_screen" />
+    <fragment
+        android:id="@+id/productScreen"
+        android:name="com.geofriend.ecommercesampleapp.product.view.ProductScreen"
+        android:label="fragment_product_screen"
+        tools:layout="@layout/fragment_product_screen"/>
+    <fragment
+        android:id="@+id/userLoginScreen"
+        android:name="com.geofriend.ecommercesampleapp.view.UserLoginScreen"
+        android:label="fragment_user_login_screen"
+        tools:layout="@layout/fragment_user_login_screen" />
+    <fragment
+        android:id="@+id/orderCheckoutScreen"
+        android:name="com.geofriend.ecommercesampleapp.checkout.view.OrderCheckoutScreen"
+        android:label="fragment_order_checkout_screen"
+        tools:layout="@layout/fragment_order_checkout_screen" />
+    <fragment
+        android:id="@+id/userCartScreen"
+        android:name="com.geofriend.ecommercesampleapp.checkout.view.UserCartScreen"
+        android:label="fragment_user_cart_screen"
+        tools:layout="@layout/fragment_user_cart_screen" />
+</navigation>

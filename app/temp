@@ -1,0 +1,38 @@
+{
+	"status": {
+		"code": 0,
+		"message": "success"
+	},
+	"result": [{
+			"url": "https://image.clovia.com/media/images/dtbanner/Activewear-DT-Banner131231.jpg",
+			"id": "activewear",
+			"title": "MIN 50% off on Active Wear"
+		},
+		[{
+				"url": "https://image.clovia.com/media/images/dtbanner/Lacy-Bralettes-DT-Hp-Banners-26-05-22.jpg",
+				"id": "lacybralettes",
+				"title": "Lacy Brallets"
+			},
+			{
+				"url": "https://image.clovia.com/media/images/dtbanner/Non-Padded-Bras-DT-Hp-Banners-30-05-22.jpg",
+				"id": "nonpaddedbras",
+				"title": "Non Padded Bras"
+			},
+			{
+				"url": "https://image.clovia.com/media/images/dtbanner/Padded-Bras-DT-Hp-Banners-26-05-22.jpg",
+				"id": "paddedbras",
+				"title": "Padded Bras"
+			}
+		],
+		{
+			"url": "https://image.clovia.com/media/images/dtbanner/Pick-4-for-499-DT-Banner-03-06-22.jpg",
+			"id": "panty499",
+			"title": "4 Panties for 499"
+		},
+		{
+			"url": "https://image.clovia.com/media/images/dtbanner/DT-HP-Ticker-Banner-03-06-22.jpg",
+			"id": "trendingsleepcollection",
+			"title": "Trending Sleep Collection"
+		}
+	]
+}

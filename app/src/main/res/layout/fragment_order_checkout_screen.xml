@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkout.view.OrderCheckoutScreen">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Billing Info" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="Billing Name"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_addressLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:hint="House No./Flat/Floor"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_addressLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:hint="Area/Sector/Colony"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:hint="City"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:hint="State"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalCode"
+            android:hint="House No./Flat/Floor"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="phone"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/final_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+
+            android:text="Payment Method : Cash on Delivery" />
+
+        <Button
+            android:id="@+id/btn_confirm_and_proceed"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm and Proceed" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
